@@ -53,7 +53,7 @@ class CategoryAdapter(
                 binding.categoryName.setTextColor(Color.parseColor("#C3C4C9"))
                 binding.categoryName.setBackgroundResource(R.color.white)
 
-                binding.categoryCard.cardElevation = 15f
+                binding.categoryCard.cardElevation = 30f
             }
 
             binding.categoryName.text = item.name
